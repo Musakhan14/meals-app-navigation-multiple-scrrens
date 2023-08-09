@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:meals/screens/categroies_meals_screen.dart';
-import 'dart:html';
 
 class CategoryItem extends StatelessWidget {
   final String title;

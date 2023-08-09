@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'dart:html';
+// ignore_for_file: constant_identifier_names
 
 enum Complexity { Simple, Challenging, Hard }
 

@@ -1,5 +1,4 @@
 import 'package:flutter/animation.dart';
-import 'dart:html';
 
 class Category {
   final String id;

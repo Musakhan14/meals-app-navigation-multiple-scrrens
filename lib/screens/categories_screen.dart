@@ -1,11 +1,7 @@
 // ignore_for_file: sort_child_properties_last
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'dart:html';
 
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:meals/widgets/categories_item.dart';
 import 'package:meals/dummy_data.dart';
 

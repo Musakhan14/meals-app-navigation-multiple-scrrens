@@ -1,11 +1,6 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:meals/models/meal.dart';
 import 'package:meals/screens/meal_detail_screen.dart';
-import 'dart:html';
 
 class MealItem extends StatelessWidget {
   final String title;
@@ -16,7 +11,8 @@ class MealItem extends StatelessWidget {
   final Affordability affordability;
 
   const MealItem(
-      {required this.id,
+      {super.key,
+      required this.id,
       required this.title,
       required this.imageUrl,
       required this.duration,
